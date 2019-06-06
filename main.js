@@ -21,4 +21,13 @@ function fetchIssues()
 
         issuesListe.innerHTML += "<div class = "";
     }
+    function collectRegNo(String name, int reg_no)
+    {
+        this.Name = name;
+        this.REg = reg_no;
+        if((!reg_no) && (name))
+        {
+            //TODO check leaners fee status
+        }
+    }
 }
